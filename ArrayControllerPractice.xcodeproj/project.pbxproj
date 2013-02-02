@@ -17,6 +17,7 @@
 		9B9952CC16BCEA8D00782644 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9952AC16BCEA8D00782644 /* Cocoa.framework */; };
 		9B9952D416BCEA8D00782644 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B9952D216BCEA8D00782644 /* InfoPlist.strings */; };
 		9B9952D716BCEA8D00782644 /* ArrayControllerPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9952D616BCEA8D00782644 /* ArrayControllerPracticeTests.m */; };
+		9B9952E216BCF07700782644 /* BNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9952E116BCF07700782644 /* BNModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		9B9952D316BCEA8D00782644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B9952D516BCEA8D00782644 /* ArrayControllerPracticeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayControllerPracticeTests.h; sourceTree = "<group>"; };
 		9B9952D616BCEA8D00782644 /* ArrayControllerPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayControllerPracticeTests.m; sourceTree = "<group>"; };
+		9B9952E016BCF07700782644 /* BNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNModel.h; sourceTree = "<group>"; };
+		9B9952E116BCF07700782644 /* BNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				9B9952BF16BCEA8D00782644 /* BNAppDelegate.m */,
 				9B9952C116BCEA8D00782644 /* MainMenu.xib */,
 				9B9952B316BCEA8D00782644 /* Supporting Files */,
+				9B9952E016BCF07700782644 /* BNModel.h */,
+				9B9952E116BCF07700782644 /* BNModel.m */,
 			);
 			path = ArrayControllerPractice;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				9B9952B916BCEA8D00782644 /* main.m in Sources */,
 				9B9952C016BCEA8D00782644 /* BNAppDelegate.m in Sources */,
+				9B9952E216BCF07700782644 /* BNModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
